@@ -4,12 +4,19 @@ Elementos de Computación
 Grupo 13
 Alicia Hernández
 Joctan Antonio Porras Esquivel
-Fecha de entrega: 01-03-2022
+Fecha de entrega: 08-03-2022
 Ej 1,2,6,9,10,13,14,17
 """
 
 #Ejercicio #1
 def solicitaNumeros0_10():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                       1                    |\n"
+    "|                                            |\n"
+    "··············································")
     while (True):
         try:
             numero = int(input("Digite un numero entre 0 y 10: "))
@@ -23,6 +30,13 @@ def solicitaNumeros0_10():
         
 #Ejercicio #2
 def buscaNegativo():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                       2                    |\n"
+    "|                                            |\n"
+    "··············································")
     mayor=0
     menor=99999999999999999999999999999999999999999
     while (True):
@@ -48,6 +62,13 @@ def buscaNegativo():
         
 #Ejercicio #6
 def sumatoria():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                       6                    |\n"
+    "|                                            |\n"
+    "··············································")
     while (True):
         try:
            inicio = int(input("Digite el inicio de la sumatoria: "))
@@ -63,6 +84,13 @@ def sumatoria():
     return resultado
 #Ejercicio #9
 def ordenInverso():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                       9                    |\n"
+    "|                                            |\n"
+    "··············································")
     contador=200
     while(contador>=0):
         if (contador%2==0):
@@ -70,6 +98,13 @@ def ordenInverso():
         contador-=1
 #Ejercicio #10
 def muestraPares():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                      10                    |\n"
+    "|                                            |\n"
+    "··············································")
     while (True):
         try:
            fin = int(input("Digite el final del rango: "))
@@ -84,6 +119,13 @@ def muestraPares():
         contador+=1
 #Ejercicio #13
 def escribeNumerosdel1al100():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                      13                    |\n"
+    "|                                            |\n"
+    "··············································")
     contador = 1
     while (contador<=100):
         if(contador%10!=0):
@@ -95,6 +137,13 @@ def escribeNumerosdel1al100():
     
 #Ejercicio #14
 def promedioCalificaciones():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                       14                   |\n"
+    "|                                            |\n"
+    "··············································")
     while (True):
         try:
            cantidadEstudiantes = int(input("Digite la cantidad de estudiantes: "))
@@ -119,6 +168,13 @@ def isTripletaPitagorica(cateto1, cateto2, hipotenusa):
     return False
 
 def buscaTripletasPitagoricas():
+    print("··············································\n"
+    "|                                            |\n"
+    "|               EJERCICIO NUMERO:            |\n"
+    "|                                            |\n" 
+    "|                  17 PARTE B                |\n"
+    "|                                            |\n"
+    "··············································")
     cateto1= 1
     cateto2 = 1
     hipotenusa = 1
@@ -135,12 +191,12 @@ def buscaTripletasPitagoricas():
         cateto1=1
 # programa principal
 
-#solicitaNumeros0_10()
+solicitaNumeros0_10()
 #buscaNegativo()
 #print(sumatoria())
 #ordenInverso()
 #muestraPares()
 #escribeNumerosdel1al100()
 #print(promedioCalificaciones())
-buscaTripletasPitagoricas()
+#buscaTripletasPitagoricas()
 #isTripletaPitagorica(3,4,5)
