@@ -9,10 +9,6 @@ Ej 3,5,6,8,9,21
 """
 
 #Ejercicio #3
-
-
-
-
 def deleteSpaces():
     userPhrase = input("Ingrese la frase que desea quitar los espacios: ")
     newString = ""
@@ -27,8 +23,7 @@ def deleteSpaces():
     print("Espacios eliminados: ", deletedSpaces)
 #Ejercicio #5
 def repeatName():
-    userName = input("Ingrese su nombre: ")
-    return (userName+" ")*100
+    return (input("Ingrese su nombre: ")+" ")*100
 #Ejercicio #6
 def swapUpperLowerCases(string):
     newPhrase=""
@@ -85,4 +80,4 @@ def countNumbers(string):
 #print(swapUpperLowerCases("eSTE eS solo Un EJEMPLO"))
 #print(isLowerOrUpperCase())
 #print(indentifyChar())
-print(countNumbers("un 1, un 201 y 2 unos"))
+#print(countNumbers("un 1, un 201 y 2 unos"))

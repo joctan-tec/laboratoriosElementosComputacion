@@ -4,10 +4,10 @@ Elementos de Computación
 Grupo 13
 Alicia Hernández
 Joctan Antonio Porras Esquivel
-Fecha de entrega: 15-03-2022
+Fecha de entrega: 22-03-2022
 Ej #3,4,5,6,13
 """
-from itertools import product
+
 
 
 def isNumbers(string):
@@ -76,10 +76,12 @@ def repetedWords():
         except:
             print("ERROR: DEBE SER UN NUMERO ENTERO MAYOR A 0 Y MENOR A 11")
     myList = []
-    for i in range(limit):
+    counter = 0
+    while (counter < limit):
         word = input("Ingrese la palabra: ")
         if(word not in myList):
             myList.append(word)
+            counter+=1
     print(myList)
 #Ejercicio #13
 def isProductInStock(myList, product):
